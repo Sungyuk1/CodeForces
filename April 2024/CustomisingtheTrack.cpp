@@ -19,7 +19,7 @@ int main(){
             total+=temp;
         }
 
-        long long k = s%n;
+        long long k = total%n;
         long long ans = k*(n-k);
         cout<<ans<<endl;
 
